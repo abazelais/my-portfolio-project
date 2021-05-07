@@ -1,4 +1,28 @@
 :root {
-  --primary-font: font-family: 'New Tegomin', serif;
-  --secondary-font: font-family: 'Montserrat', sans-serif;
+  --primary-font: 'New Tegomin', serif;
+  --secondary-font: 'Montserrat', sans-serif;
+  --primary-color: aliceblue; 
+}
+
+body {
+  margin: 0 auto;
+  padding: 100px;
+  text-align: center;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  color: var(--primary-color);
+}
+
+h1 {
+  font-family: var(--primary-font);
+  font-size: 100px;
+}
+p, h3 {
+  font-family: var(--secondary-font);
+  font-size: 40px;
+  margin-top: 50px;
+
+}
+
+h3 {
+  margin-bottom: 60px;
 }
