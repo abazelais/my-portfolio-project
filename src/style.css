@@ -6,15 +6,14 @@
 
 body {
   margin: 0 auto;
-  padding: 100px;
   text-align: center;
   background-image: linear-gradient(to right, #434343 0%, black 100%);
   color: var(--primary-color);
+  font-family: var(--secondary-font);
 }
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -22,17 +21,26 @@ h6 {
 }
 h1 {
   font-size: 100px;
+  font-weight: bolder;
 }
 
 p, h3 {
   font-size: 40px;
   margin-top: 50px;
-}
-
-p{
-  font-family: var(--secondary-font);
+ 
 }
 
 h3 {
   margin-bottom: 60px;
+}
+
+.person {
+  padding: 160px;
+}
+
+#contact-button {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 25px;
+  font-weight: bold;
 }
