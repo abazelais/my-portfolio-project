@@ -2,6 +2,7 @@
   --primary-font: 'New Tegomin', serif;
   --secondary-font: 'Montserrat', sans-serif;
   --primary-color: aliceblue; 
+  --secondary-color: #0dcaf0;
 }
 
 body {
@@ -46,6 +47,11 @@ p {
 .person {
   padding: 160px;
 }
+
+.active {
+  color: var(--secondary-color) !important; 
+}
+
 
 #contact-button {
   color: var(--primary-color);
