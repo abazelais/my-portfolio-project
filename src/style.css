@@ -75,9 +75,6 @@ footer .social-links a {
   border-radius: 50%;
 }
 
-footer .email-link a:hover {
-  color: var(--primary-color);
-}
 #contact-button {
   color: var(--primary-color);
   font-family: var(--primary-font);
