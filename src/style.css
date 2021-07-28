@@ -52,6 +52,9 @@ p {
   color: var(--secondary-color) !important; 
 }
 
+.my-image {
+  margin-top: 60px;
+}
 footer {
   margin: 60px 0;
 }
