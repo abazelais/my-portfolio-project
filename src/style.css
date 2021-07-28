@@ -86,7 +86,7 @@ footer .social-links a {
 @media (max-width: 900px) {
   body {
     text-align: center;
-    padding: 0;
+    padding: 10px;
   }
   p{
     font-size: 18px;
@@ -94,5 +94,10 @@ footer .social-links a {
   }
   h1 {
     font-size: 50px;
+  }
+
+  .my-image {
+    max-width: 80%;
+    margin-top: 20px;
   }
 }
