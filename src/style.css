@@ -1,7 +1,7 @@
 :root {
-  --primary-font: 'New Tegomin', serif;
-  --secondary-font: 'Montserrat', sans-serif;
-  --primary-color: aliceblue; 
+  --primary-font: "New Tegomin", serif;
+  --secondary-font: "Montserrat", sans-serif;
+  --primary-color: aliceblue;
   --secondary-color: #0dcaf0;
 }
 
@@ -21,14 +21,13 @@ h6 {
   font-family: var(--primary-font);
 }
 h1 {
-  font-size: 95px;
+  font-size: 80px;
   font-weight: bolder;
 }
 
 .person h3 {
   font-size: 50px;
   margin-top: 50px;
- 
 }
 
 .person p {
@@ -49,7 +48,7 @@ p {
 }
 
 .active {
-  color: var(--secondary-color) !important; 
+  color: var(--secondary-color) !important;
 }
 
 .my-image {
@@ -91,7 +90,7 @@ footer .social-links a {
     text-align: center;
     padding: 10px;
   }
-  p{
+  p {
     font-size: 18px;
     line-height: 1.5;
   }
